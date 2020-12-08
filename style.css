@@ -1,0 +1,28 @@
+body {
+    background-color:lightblue;
+}
+.profile-title{
+    font-family: Helvetica;
+    color: rgb(4, 154, 255);
+}
+.profession {
+    font-family: Helvetica;
+    color: rgb(193, 230, 255);
+    background-color: rgb(4, 154, 255);
+}
+.other {
+    font-size: 30px;
+    color:  rgb(4, 154, 255);
+    
+}
+.hobbies {
+    font-size: 20px;
+
+}
+.favourites {
+    font-size: 30px;
+    color: rgb(4, 154, 255);
+}
+.things {
+    font-size: 20px;
+}
