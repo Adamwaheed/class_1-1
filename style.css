@@ -1,28 +1,68 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
 body {
     background-color:lightblue;
 }
-.profile-title{
-    font-family: Helvetica;
-    color: rgb(4, 154, 255);
+.row {
+   display: flex; 
+   flex-direction: row;
+   background-color: lavender;
 }
-.profession {
-    font-family: Helvetica;
-    color: rgb(193, 230, 255);
-    background-color: rgb(4, 154, 255);
-}
-.other {
-    font-size: 30px;
-    color:  rgb(4, 154, 255);
-    
-}
-.hobbies {
-    font-size: 20px;
+.column {
+    display: flex; 
+    flex-direction: column;
+    background-color: pink;
+ }
+ .logo{
+     height: 50px;
+     background-color:darkblue;
+     width: 150px;
+     padding: 5px;
+ }
+ .menu{
+     height: 50px;
+     background-color: aliceblue;
+     flex-grow: 1;
+     padding: 5px;
+ }
+ .search{
+     height: 50px;
+     background-color: aquamarine;
+     width: 350px;
+     padding: 5px;
+ }
+ .banner {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,242,166,1) 35%, rgba(0,212,255,1) 100%);
+     height: 400px;
+     flex-grow: 1;
+     padding: 50px;
+     color: white;
+ }
+ .service-box {
+     margin: 10px;
+     padding: 15px;
+     flex-grow: 1;
+     background-color: white;
+ }
+ .what{
+     height: 100px;
+     margin: 10px;
+     background-color: white;
+     padding: 15px;
+     flex-grow: 1;
 
-}
-.favourites {
-    font-size: 30px;
-    color: rgb(4, 154, 255);
-}
-.things {
-    font-size: 20px;
-}
+ }
+ .box {
+     height: 100px;
+     margin: 10px;
+     padding: 15px;
+     flex-grow: 1;
+     background: rgb(238,174,202);
+     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+ }
+ 
+ 
